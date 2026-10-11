@@ -14,11 +14,23 @@
 
 package elius.virtualoperator.task;
 
+/**
+ * TaskPriority.
+ * <p>
+ * List of possible task priorities.
+ */
 public enum TaskPriority {
 
+	/** Priority not defined */
 	UNDEFINED(0, "Low"),
+
+	/** Low priority */
 	LOW(1, "Low"), 
+
+	/** Medium priority */
 	MEDIUM(2, "Medium"), 
+
+	/** High priority */
 	HIGH(3, "High");
 
 	// Priority name

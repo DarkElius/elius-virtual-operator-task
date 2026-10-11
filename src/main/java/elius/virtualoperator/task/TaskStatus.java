@@ -14,15 +14,35 @@
 
 package elius.virtualoperator.task;
 
+/**
+ * TaskStatus.
+ * <p>
+ * List of possible task status.
+ */
 public enum TaskStatus {
 
+	/** Undefined status */
 	UNKNOWN(0, "Unknown"), 
+
+	/** New task */
 	NEW(1, "New"), 
+
+	/** Task owned */
 	OWNED(2, "Owned"),
+
+	/** Task started*/
 	STARTED(3, "Started"),
+
+	/** Task is running */
 	RUNNING(4, "Running"),
+
+	/** Task successfully ended */
 	ENDED(5, "Ended"),
+
+	/** Task ended in error */
 	ERROR(6, "Error"),
+
+	/** Task ended with warnings */
 	WARNING(7, "Warning");
 
 	private final String name;

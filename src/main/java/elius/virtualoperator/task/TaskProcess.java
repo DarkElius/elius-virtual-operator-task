@@ -16,8 +16,12 @@ package elius.virtualoperator.task;
 
 import elius.webapp.framework.plugin.Plugin;
 
+/**
+ * TaskProcess.
+ * <p>
+ * Interface to implement tasks.
+ */
 public interface TaskProcess extends Plugin {
-
 	
 	/**
 	 * Process the selected task

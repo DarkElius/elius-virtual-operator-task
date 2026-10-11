@@ -19,6 +19,11 @@ import java.util.UUID;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
+/**
+ * Task.
+ * <p>
+ * Task object.
+ */
 public class Task {
 	// Universal unique identifier
 	private UUID uuid;
@@ -189,7 +194,7 @@ public class Task {
 	
 	/**
 	 * Set task requester
-	 * @param requester
+	 * @param requester Task requester
 	 */
 	public void setRequester(String requester) {
 		this.requester = requester;
