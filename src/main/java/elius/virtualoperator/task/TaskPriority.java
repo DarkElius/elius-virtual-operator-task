@@ -79,4 +79,4 @@ public enum TaskPriority {
 	    }
 	    return UNDEFINED;
 	}
-};
+}
